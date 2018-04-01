@@ -6,7 +6,8 @@ form.on('submit', () => {
 
   const inputField = d3.select('#textbox');
   console.log(`The user entered: ${inputField.node().value}`);
-  d3.json('/send', function(error, response) { 
+  endpoint = '/send?textbox='.concat(inputField.node().value);
+  d3.json(endpoint, function(error, response) { 
     if (error) return console.warn(error);
     console.log('response: ', response);
   })

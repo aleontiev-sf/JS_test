@@ -15,7 +15,7 @@ def home():
 @app.route("/send")
 def send():
     input = request.args.get('textbox')
-    print ('Got: ', str(input))
+    print ('Got: ', input)
     return jsonify('success')
 
 if __name__ == "__main__":
