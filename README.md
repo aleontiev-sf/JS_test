@@ -1,5 +1,6 @@
 ## Full Stack Flask and JavaScript Test Application
 <p>This bare-bones code is meant to demonstrate how to write a full stack (client and server components) Flask and JavaScript based app that renders a text input field (client), passes the user input to a Flask end point service (server), and receives a jsonified string from this end point.
+
 ### Files and directories
 app.py:  Python script which contains the code for the Flask end points
 <br>templates folder: contains index.html (template HTML file)
