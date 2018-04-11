@@ -6,12 +6,16 @@ app.py:  Python script which contains the code for the Flask end points
 <br>templates folder: contains index.html (template HTML file)
 <br>static folder: contains app.js which is the JavaScript code for the “submit” event (when user enters data)
 <p>To run the app follow these steps:
+
 1.	From the directory where app.py resides, run the script: python app.py
 <br> you should see: Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 2.	From a browser tab, access localhost:5000
 3.	Activate viewing of console log messages (for Chrome, choose “Developer Tools” under “More Tools” menu option)
 4.	Enter some text and observe the sequence of events:
-a.	Event handler for submit action is invoked and displays “My code runs!”
-b.	It then prints the text entered into the text input field
-c.	Finally, it prints the string returned by the /send end point function, which in this case returns the string “success”
+
+* Event handler for submit action is invoked and displays “My code runs!”
+
+* It then prints the text entered into the text input field
+
+* Finally, it prints the string returned by the /send end point function, which in this case returns the string “success”
 You can build upon this skeleton framework by adding more code/logic to various modules.
