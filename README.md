@@ -18,4 +18,4 @@ app.py:  Python script which contains the code for the Flask end points
 * It then prints the text entered into the text input field
 
 * Finally, it prints the string returned by the /send end point function, which in this case returns the string “success”
-You can build upon this skeleton framework by adding more code/logic to various modules.
+<br> You can build upon this working skeleton framework by adding more code/logic to various modules.
